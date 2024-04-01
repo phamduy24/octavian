@@ -1,39 +1,336 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I Love You</title>
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <div id="drag-container">
-        <div id="spin-container">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432207544_1130546708373024_1505801534243083069_n.jpg?stp=dst-jpg_s206x206&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEt2GhIObN7UiqCHdkZKUnk44gpZV7CQnLjiCllXsJCcuFOjWybHExaNRwAPLrw_6eJpitchZwabuZK3r5kgDQW&_nc_ohc=LHTuTGK9mecAX926Fnj&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQnQauWdf-TDj2_WIIcvzEfNK3MZ5RlN15BSiQQbUFAtw&oe=6623D484" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/431764004_283952164739063_5529452486927557309_n.jpg?stp=dst-jpg_s280x280&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGKSe9NTVw8hacqrXl_PYqMJ4HUrP1gMxIngdSs_WAzEq5z175-p0X4f6gnsdtL6u--gTa2Tc_nJ_gK0b6ABSL5&_nc_ohc=kM2Y0rUVDTEAX-jDC-G&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRqjm_-tQDbi7gKHXrIct5cn3UvlfykV1Goxk3InBGzqw&oe=6623BC90" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432145257_942266994224527_8882024038891753794_n.jpg?stp=dst-jpg_s280x280&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHwKqgr1WnvViDIlFUTAQmGPFrqV_XejcQ8WupX9d6NxOJRFFgiuPiAxLQZFS-r-5QWIP3I0ARjpfeBG4KB-9Ol&_nc_ohc=EKTOcbESVC8AX92YMN9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTc04lEWjIAVPQC4770Zw2qdevqDYvhdj_-S5OVEibHpA&oe=6623D223" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432377391_771771851222038_2842949211619549492_n.jpg?stp=dst-jpg_s280x280&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFUV6Q7GpAc-me5LtwzRvobyEV5jO2yPEjIRXmM7bI8SE6oJaffszzLtoJDG8weWM1nNge5A7iMKYEl_ekNTe8d&_nc_ohc=4f0-sM08-MYAX9yM7HJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSOz3zd8pBBtHZA8gHuiFod5vZ66k6QNqZevcTl8eIsug&oe=6623DC33" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432365842_387287854160336_4426000309105495098_n.jpg?stp=dst-jpg_s280x280&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF1z3GmvvSZXqmj6yJeFavw3_fRSRglEF_f99FJGCUQX-wgfjC4Jo7w4LDFSY318dn7nt2zRWRV8A1y7SlZ9YSf&_nc_ohc=S595ytF4Q_MAX8aDIPx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQSaleCrOj1nkk_d9t7OtHPxbzHHk03La6hGCzdIa6oxw&oe=6623BFA3" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432336228_1056466692123100_8155423854774756027_n.jpg?stp=dst-jpg_s206x206&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGvWRNRxj3_JmjfX7KKRWiLlua8UqrDGtaW5rxSqsMa1l6qZD5ootBAM2IbM_QItRotoX4D7hXyyzlM8IZD9xg3&_nc_ohc=JhrwFGRubnMAX9U24DP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQHl_XUZ9amSoFrrrJc6_r-yWYOaCysKFD8Oi-YH2xKgA&oe=6623B4FC" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432326299_715405760486033_4843012258393217617_n.jpg?stp=dst-jpg_s280x280&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHgQUPmOoAu5hRnKod3cJNE40r1BhxG-i7jSvUGHEb6LmkypwxvzBS91KvQ-nllsi7qt3_9iWLi2G3k2sEoK22X&_nc_ohc=Sj-W12h-XkEAX-MtPA1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ2bdBqzkRm5XPobx9JV69lZP33nT4T-MQtK1yE2SZE7g&oe=6623D5AB" alt="">
-          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432361821_1433922443877791_508389449760667685_n.jpg?stp=dst-jpg_s206x206&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG3GnW8FGTODaw2rhNdTDcOU92tv3PMbFFT3a2_c8xsUfMhTt6_ezP_1pKs2BBuDrDbb77Ftn1OwtwiaepbQ9qm&_nc_ohc=XGm3EHjemtIAX-iLn1x&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQUkD61m4kYibKKYaeKG61g3AahBTr5Q2uoxNTzgUK7yQ&oe=6623BF90" alt="">
-            <p>Ngọc Lan</p>
-
-        </div>
-        <div id="ground"></div>
-      </div>
-
-      <div id="music-container"></div>
-      <div id="canva">
-      <canvas id="canvas"></canvas>
-    </div>
-    <audio src="./nhac.mp3.mp3" autoplay loop></audio>
-    <script src="main.js"></script>
-</body>
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> THY KHANH </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ 
+   
+  <style>
+  html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ 
+.box {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+ 
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#pinkboard {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  animation: animate 1.3s infinite;
+}
+ 
+#pinkboard:before, #pinkboard:after {
+  content: '';
+  position: absolute;
+  background: #FF5CA4;
+  width: 100px;
+  height: 160px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+ 
+#pinkboard:before {
+  left: 100px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+              0 10px 10px rgba(0,0,0,0.22);
+}
+ 
+#pinkboard:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+ 
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(.8);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  </style>
+ </HEAD>
+ 
+ <BODY>
+   <div class="box">
+      <canvas id="pinkboard"></canvas>
+   </div>
+  <script>
+  /*
+ * Settings
+ */
+var settings = {
+  particles: {
+    length:   2000, // maximum amount of particles
+    duration:   2, // particle duration in sec
+    velocity: 100, // particle velocity in pixels/sec
+    effect: -1.3, // play with this for a nice effect
+    size:      13, // particle size in pixels
+  },
+};
+/*
+ * RequestAnimationFrame polyfill by Erik Möller
+ */
+(function(){var b=0;var c=["ms","moz","webkit","o"];for(var a=0;a<c.length&&!window.requestAnimationFrame;++a){window.requestAnimationFrame=window[c[a]+"RequestAnimationFrame"];window.cancelAnimationFrame=window[c[a]+"CancelAnimationFrame"]||window[c[a]+"CancelRequestAnimationFrame"]}if(!window.requestAnimationFrame){window.requestAnimationFrame=function(h,e){var d=new Date().getTime();var f=Math.max(0,16-(d-b));var g=window.setTimeout(function(){h(d+f)},f);b=d+f;return g}}if(!window.cancelAnimationFrame){window.cancelAnimationFrame=function(d){clearTimeout(d)}}}());
+/*
+ * Point class
+ */
+var Point = (function() {
+  function Point(x, y) {
+    this.x = (typeof x !== 'undefined') ? x : 0;
+    this.y = (typeof y !== 'undefined') ? y : 0;
+  }
+  Point.prototype.clone = function() {
+    return new Point(this.x, this.y);
+  };
+  Point.prototype.length = function(length) {
+    if (typeof length == 'undefined')
+      return Math.sqrt(this.x * this.x + this.y * this.y);
+    this.normalize();
+    this.x *= length;
+    this.y *= length;
+    return this;
+  };
+  Point.prototype.normalize = function() {
+    var length = this.length();
+    this.x /= length;
+    this.y /= length;
+    return this;
+  };
+  return Point;
+})();
+/*
+ * Particle class
+ */
+var Particle = (function() {
+  function Particle() {
+    this.position = new Point();
+    this.velocity = new Point();
+    this.acceleration = new Point();
+    this.age = 0;
+  }
+  Particle.prototype.initialize = function(x, y, dx, dy) {
+    this.position.x = x;
+    this.position.y = y;
+    this.velocity.x = dx;
+    this.velocity.y = dy;
+    this.acceleration.x = dx * settings.particles.effect;
+    this.acceleration.y = dy * settings.particles.effect;
+    this.age = 0;
+  };
+  Particle.prototype.update = function(deltaTime) {
+    this.position.x += this.velocity.x * deltaTime;
+    this.position.y += this.velocity.y * deltaTime;
+    this.velocity.x += this.acceleration.x * deltaTime;
+    this.velocity.y += this.acceleration.y * deltaTime;
+    this.age += deltaTime;
+  };
+  Particle.prototype.draw = function(context, image) {
+    function ease(t) {
+      return (--t) * t * t + 1;
+    }
+    var size = image.width * ease(this.age / settings.particles.duration);
+    context.globalAlpha = 1 - this.age / settings.particles.duration;
+    context.drawImage(image, this.position.x - size / 2, this.position.y - size / 2, size, size);
+  };
+  return Particle;
+})();
+/*
+ * ParticlePool class
+ */
+var ParticlePool = (function() {
+  var particles,
+      firstActive = 0,
+      firstFree   = 0,
+      duration    = settings.particles.duration;
+ 
+  function ParticlePool(length) {
+    // create and populate particle pool
+    particles = new Array(length);
+    for (var i = 0; i < particles.length; i++)
+      particles[i] = new Particle();
+  }
+  ParticlePool.prototype.add = function(x, y, dx, dy) {
+    particles[firstFree].initialize(x, y, dx, dy);
+   
+    // handle circular queue
+    firstFree++;
+    if (firstFree   == particles.length) firstFree   = 0;
+    if (firstActive == firstFree       ) firstActive++;
+    if (firstActive == particles.length) firstActive = 0;
+  };
+  ParticlePool.prototype.update = function(deltaTime) {
+    var i;
+   
+    // update active particles
+    if (firstActive < firstFree) {
+      for (i = firstActive; i < firstFree; i++)
+        particles[i].update(deltaTime);
+    }
+    if (firstFree < firstActive) {
+      for (i = firstActive; i < particles.length; i++)
+        particles[i].update(deltaTime);
+      for (i = 0; i < firstFree; i++)
+        particles[i].update(deltaTime);
+    }
+   
+    // remove inactive particles
+    while (particles[firstActive].age >= duration && firstActive != firstFree) {
+      firstActive++;
+      if (firstActive == particles.length) firstActive = 0;
+    }
+   
+   
+  };
+  ParticlePool.prototype.draw = function(context, image) {
+    // draw active particles
+    if (firstActive < firstFree) {
+      for (i = firstActive; i < firstFree; i++)
+        particles[i].draw(context, image);
+    }
+    if (firstFree < firstActive) {
+      for (i = firstActive; i < particles.length; i++)
+        particles[i].draw(context, image);
+      for (i = 0; i < firstFree; i++)
+        particles[i].draw(context, image);
+    }
+  };
+  return ParticlePool;
+})();
+/*
+ * Putting it all together
+ */
+(function(canvas) {
+  var context = canvas.getContext('2d'),
+      particles = new ParticlePool(settings.particles.length),
+      particleRate = settings.particles.length / settings.particles.duration, // particles/sec
+      time;
+ 
+  // get point on heart with -PI <= t <= PI
+  function pointOnHeart(t) {
+    return new Point(
+      160 * Math.pow(Math.sin(t), 3),
+      130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
+    );
+  }
+ 
+  // creating the particle image using a dummy canvas
+  var image = (function() {
+    var canvas  = document.createElement('canvas'),
+        context = canvas.getContext('2d');
+    canvas.width  = settings.particles.size;
+    canvas.height = settings.particles.size;
+    // helper function to create the path
+    function to(t) {
+      var point = pointOnHeart(t);
+      point.x = settings.particles.size / 2 + point.x * settings.particles.size / 350;
+      point.y = settings.particles.size / 2 - point.y * settings.particles.size / 350;
+      return point;
+    }
+    // create the path
+    context.beginPath();
+    var t = -Math.PI;
+    var point = to(t);
+    context.moveTo(point.x, point.y);
+    while (t < Math.PI) {
+      t += 0.01; // baby steps!
+      point = to(t);
+      context.lineTo(point.x, point.y);
+    }
+    context.closePath();
+    // create the fill
+    context.fillStyle = '#FF5CA4';
+    context.fill();
+    // create the image
+    var image = new Image();
+    image.src = canvas.toDataURL();
+    return image;
+  })();
+ 
+  // render that thing!
+  function render() {
+    // next animation frame
+    requestAnimationFrame(render);
+   
+    // update time
+    var newTime   = new Date().getTime() / 1000,
+        deltaTime = newTime - (time || newTime);
+    time = newTime;
+   
+    // clear canvas
+    context.clearRect(0, 0, canvas.width, canvas.height);
+   
+    // create new particles
+    var amount = particleRate * deltaTime;
+    for (var i = 0; i < amount; i++) {
+      var pos = pointOnHeart(Math.PI - 2 * Math.PI * Math.random());
+      var dir = pos.clone().length(settings.particles.velocity);
+      particles.add(canvas.width / 2 + pos.x, canvas.height / 2 - pos.y, dir.x, -dir.y);
+    }
+   
+    // update and draw particles
+    particles.update(deltaTime);
+    particles.draw(context, image);
+  }
+ 
+  // handle (re-)sizing of the canvas
+  function onResize() {
+    canvas.width  = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
+  }
+  window.onresize = onResize;
+ 
+  // delay rendering bootstrap
+  setTimeout(function() {
+    onResize();
+    render();
+  }, 10);
+})(document.getElementById('pinkboard'));
+  </script>
+  <div class="center-text",
+  style="background-color:rgb(0, 0, 0);
+        width: 100%;
+        color: rgb(225, 12, 168);
+        height:100%;
+        font-size: 31px;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        text-align: center;">I LOVE YOU!</div>
+ </BODY>
+</HTML>
